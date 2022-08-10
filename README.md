@@ -1,4 +1,4 @@
-# Modern React Starter
+# Terminus Logo
 
 ## License
 
