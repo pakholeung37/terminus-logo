@@ -1,0 +1,26 @@
+{
+  "exclude": ["node_modules"],
+  "include": ["packages", "scripts"],
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "esnext",
+    "moduleResolution": "node",
+    "noImplicitReturns": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "stripInternal": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true
+  }
+}

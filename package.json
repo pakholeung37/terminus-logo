@@ -1,0 +1,22 @@
+{
+  "name": "terminus-logo-monorepo",
+  "private": true,
+  "author": "Pakho Leung <pakholeung37@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "generate": "node -r @swc-node/register ./scripts/generate.ts",
+    "build": "turbo run build",
+    "clean": "turbo run clean"
+  },
+  "dependencies": {
+    "@builder.io/mitosis": "^0.0.55",
+    "@builder.io/mitosis-cli": "^0.0.16",
+    "@swc-node/register": "^1.5.1",
+    "@types/node": "^18.0.0",
+    "prettier": "^2.7.1",
+    "rimraf": "3.0.2",
+    "turbo": "1.4.2",
+    "typescript": "4.7.4",
+    "vite": "3.0.1"
+  }
+}
