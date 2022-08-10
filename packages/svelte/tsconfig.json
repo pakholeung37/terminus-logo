@@ -1,9 +1,7 @@
 {
   "extends": "../../tsconfig.json",
-  "include": ["src"],
+  "include": ["src/**/*.svelte"],
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
     "tsBuildInfoFile": "node_modules/.cache/.tsbuildinfo"
   }
 }

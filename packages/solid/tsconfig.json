@@ -2,8 +2,11 @@
   "extends": "../../tsconfig.json",
   "include": ["src"],
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
+    "jsxImportSource": "solid-js",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "noEmit": false,
     "tsBuildInfoFile": "node_modules/.cache/.tsbuildinfo"
   }
 }

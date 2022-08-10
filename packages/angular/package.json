@@ -1,27 +1,22 @@
 {
-  "name": "@terminus-logo/react",
+  "name": "@terminus-logo/angluar",
   "version": "0.0.1",
   "private": true,
   "main": "dist/index/index.common.js",
   "module": "dist/index/index.module.js",
   "types": "dist/index/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist", "src"],
   "scripts": {
     "build": "vite build",
     "dev": "pnpm build --watch",
     "clean": "rimraf dist .turbo",
-    "typecheck": "tsc --noEmit",
-    "build:fast": "pnpm build"
+    "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "@angluar/core": "*"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@vitejs/plugin-react": "^2.0.0",
-    "react": "^18.0.0",
+    "@angular/core": "14.1.1",
     "vite": "^3.0.5",
     "vite-plugin-dts": "^1.4.1"
   },

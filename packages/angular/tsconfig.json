@@ -2,8 +2,7 @@
   "extends": "../../tsconfig.json",
   "include": ["src"],
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
+    "experimentalDecorators": true,
     "tsBuildInfoFile": "node_modules/.cache/.tsbuildinfo"
   }
 }
