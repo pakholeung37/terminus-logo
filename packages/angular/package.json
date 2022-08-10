@@ -2,10 +2,12 @@
   "name": "@terminus-logo/angluar",
   "version": "0.0.1",
   "private": true,
-  "main": "dist/index/index.common.js",
-  "module": "dist/index/index.module.js",
-  "types": "dist/index/index.d.ts",
-  "files": ["dist", "src"],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build",
     "dev": "pnpm build --watch",
