@@ -10,7 +10,10 @@ import {
 } from '@builder.io/mitosis'
 
 async function start() {
-  const svgPath = `${path.resolve(__dirname, '../terminus-logo.svg')}`
+  const svgPath = `${path.resolve(
+    __dirname,
+    '../packages/svg/lib/terminus-logo.svg',
+  )}`
   let svgContent: string = ''
   try {
     svgContent = (await fs.promises.readFile(svgPath, 'utf8')).replace(
@@ -28,7 +31,11 @@ async function start() {
   const mitosisComponent = parseJsx(mitosisTemplate)
 
   const transpilers = [
-    { target: 'vue', transpiler: componentToVue(), ext: 'vue' },
+    {
+      target: 'vue',
+      transpiler: componentToVue({ vueVersion: 3 }),
+      ext: 'vue',
+    },
     { target: 'angular', transpiler: componentToAngular(), ext: 'ts' },
     { target: 'react', transpiler: componentToReact(), ext: 'tsx' },
     { target: 'solid', transpiler: componentToSolid(), ext: 'tsx' },
@@ -46,6 +53,7 @@ async function start() {
         recursive: true,
       })
       await fs.promises.writeFile(`${outputPath}/index.${ext}`, result)
+      console.log(`Generated ${`${outputPath}/index.${ext}`}`)
     } catch (e) {
       console.error(e)
     }

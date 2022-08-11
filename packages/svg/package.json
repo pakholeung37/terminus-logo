@@ -1,0 +1,8 @@
+{
+  "name": "@terminus-logo/svg",
+  "version": "0.0.1",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT"
+}
