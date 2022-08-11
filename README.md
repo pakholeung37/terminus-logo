@@ -9,8 +9,8 @@
 Terminus logo icon for React, Solid, Vue, Svelte and Angular. Powered by
 [Mitosis](https://mitosis.builder.io/).
 
-It is more like a icons generator for mutiple frameworks which uses Mitosis to
-transpile raw svg to framework related components.
+It is more like an icon generator for multiple frameworks which uses Mitosis to
+transpile raw SVG to framework-related components.
 
 ## Usage
 
