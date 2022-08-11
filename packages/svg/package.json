@@ -4,5 +4,8 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT"
 }

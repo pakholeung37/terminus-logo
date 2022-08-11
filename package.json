@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@builder.io/mitosis": "^0.0.55",
+    "@changesets/cli": "^2.24.2",
     "@swc-node/register": "^1.5.1",
     "@types/node": "^18.0.0",
     "prettier": "^2.7.1",
