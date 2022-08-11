@@ -1,5 +1,5 @@
 {
-  "name": "@terminus-logo/angluar",
+  "name": "@terminus-logo/angular",
   "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

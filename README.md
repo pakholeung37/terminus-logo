@@ -8,7 +8,16 @@ transpile raw svg to framework related components.
 
 ## Usage
 
-choose one of the following frameworks to install:
+choose one of the following packages to install:
+
+| Package                                                                        |
+| ------------------------------------------------------------------------------ |
+| [@terminus-logo/react](https://www.npmjs.com/package/@terminus-logo/react)     |
+| [@terminus-logo/solid](https://www.npmjs.com/package/@terminus-logo/solid)     |
+| [@terminus-logo/vue](https://www.npmjs.com/package/@terminus-logo/vue)         |
+| [@terminus-logo/svelte](https://www.npmjs.com/package/@terminus-logo/svelte)   |
+| [@terminus-logo/angular](https://www.npmjs.com/package/@terminus-logo/angular) |
+| [@terminus-logo/svg](https://www.npmjs.com/package/@terminus-logo/svg)         |
 
 ### React
 
@@ -63,7 +72,7 @@ export const App = () => {
 import { Logo } from '@trerminus-logo/angular'
 
 export const AppComponent = {
-  template: '<Logo />'
+  template: '<Logo />',
 }
 ```
 
