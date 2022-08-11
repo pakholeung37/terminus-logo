@@ -1,5 +1,11 @@
 # Terminus Logo
 
+<p align="center">
+<a href="./packages/svg/lib/terminus-logo.svg">
+  <img width="200" src="./packages/svg/lib/terminus-logo.svg" alt="Terminus logo">
+</a>
+</p>
+
 Terminus logo icon for React, Solid, Vue, Svelte and Angular. Powered by
 [Mitosis](https://mitosis.builder.io/).
 
