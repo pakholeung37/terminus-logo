@@ -58,18 +58,14 @@ export const App = () => {
 ### Vue
 
 ```Vue
+<script setup>
+  import Logo from '@trerminus-logo/vue'
+</script>
+
 <template>
   <Logo />
 </template>
 
-<script>
-  import Logo from '@trerminus-logo/vue'
-  export default {
-    components: {
-      Logo
-    }
-  }
-</script>
 ```
 
 ### Angular
