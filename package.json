@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "generate": "node -r @swc-node/register ./scripts/generate.ts",
-    "build": "turbo run build",
-    "build2": "turbo run build",
+    "build": "turbo run build --filter=./packages/*",
     "clean": "turbo run clean"
   },
   "dependencies": {
